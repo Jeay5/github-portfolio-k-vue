@@ -19,7 +19,7 @@
 
 .error-page h2 {
     font-size: 4rem;
-    color: #00bd7e;
+    color: #00bdec;
 }
 
 .error-page h3 {

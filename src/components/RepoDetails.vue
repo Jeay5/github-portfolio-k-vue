@@ -21,7 +21,7 @@
     methods: {
         fetchData: function () {
             this.loading = true
-            fetch(`https://api.github.com/repos/mbonamensa/${this.$route.params.id}`, {
+            fetch(`https://api.github.com/repos/jeay5/${this.$route.params.id}`, {
             headers: {
                 Accept: "application/json"
             },
@@ -29,7 +29,7 @@
             .then((res) => res.json())
             .then((details) => (this.details = details));
 
-            fetch(`https://api.github.com/repos/mbonamensa/${this.$route.params.id}/branches`, {
+            fetch(`https://api.github.com/repos/jeay5/${this.$route.params.id}/branches`, {
                 headers: {
                     Accept: "application/json"
                 },
@@ -37,7 +37,7 @@
             .then((res) => res.json())
             .then((branches) => (this.branches = branches));
 
-            fetch(`https://api.github.com/repos/mbonamensa/${this.$route.params.id}/deployments`, {
+            fetch(`https://api.github.com/repos/jeay5/${this.$route.params.id}/deployments`, {
                 headers: {
                     Accept: "application/json"
                 },
@@ -75,7 +75,7 @@
             <p v-if="details.language === null">Main Language: none</p>
             <p v-else="details.language === null">Main Language: {{ details.language }}</p>
             <p v-if="deployments.length === 0">Live site: none</p>
-            <p v-else>Live site: <a :href="`https://mbonamensa.github.io/${details.name}`">mbonamensa.github.io/{{ details.name }}</a></p>
+            <p v-else>Live site: <a :href="`https://jeay5.github.io/${details.name}`">Jememiah.github.io/{{ details.name }}</a></p>
             <p><a :href="`https://github.com/${details.full_name}`">View on Github</a></p>
         </div>
     </div>
@@ -96,14 +96,14 @@
 
 
 .repodetail-card {
-    border: 1px solid #00bd7e;
+    border: 1px solid #00bdec;
     padding: 13px;
     border-radius: 5px;
 }
 
 
 .repo-name {
-    color: #00bd7e;
+    color: #00bdec;
     font-size: 2rem;
     word-break: break-word;
 }
@@ -134,7 +134,7 @@
 }
 
 .icons {
-    color: #00bd7e;
+    color: #00bdec;
 }
 
 .back {
@@ -142,6 +142,6 @@
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 2rem;
-    color: #00bd7e;
+    color: #00bdec;
 }
 </style>

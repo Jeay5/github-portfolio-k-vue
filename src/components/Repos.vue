@@ -23,7 +23,7 @@
         methods: {
             fetchData: function() {
                 this.loading = true
-                fetch(`https://api.github.com/users/mbonamensa/repos`, {
+                fetch(`https://api.github.com/users/jeay5/repos`, {
                 headers: {
                     Accept: "application/json"
                 },
@@ -104,14 +104,14 @@
 
 .repo-card,
 .repodetail-card {
-    border: 1px solid #00bd7e;
+    border: 1px solid #00bdec;
     padding: 13px;
     border-radius: 5px;
 }
 
 
 .repo-name {
-    color: #00bd7e;
+    color: #00bdec;
     font-size: 2rem;
     word-break: break-word;
 }

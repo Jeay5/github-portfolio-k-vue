@@ -1,6 +1,6 @@
 # github-portfolio in VueJs
 
-This is the Vuejs version of my [github portfolio](https://github.com/mbonamensa/github-portfolio/) originally built in React. It is also my submission to the [Alt School](https://altschoolafrica.com/schools/engineering) third semester exam project.
+This is the Vuejs version of my [github portfolio](https://github.com/jeay5/github-portfolio/) originally built in React. It is also my submission to the [Alt School](https://altschoolafrica.com/schools/engineering) second semester exam project.
 
 ## Table of contents
 
@@ -39,7 +39,7 @@ Error Page
 
 ### Links
 
-- Live Site URL: [Maame's GitHub](https://githubportfolio-vue.netlify.app/)
+- Live Site URL: [JEREMIAH's GitHub](https://githubportfolio-vue.varcel.app/)
 
 <!---## My process
 
@@ -73,6 +73,6 @@ These resources were useful in helping me build this project
 
 ## Author
 
-- Website - [Maame Yaa Serwaa Bona-Mensa](https://mbonamensa.netlify.app)
-- Twitter - [@mys_bm](https://www.twitter.com/mys_bm)
+- Email - [igbinidujeremiah@gmail.com](https://jeays.varcel.app)
+- Twitter - [@igbiniduIyobosa](https://x.com/IgbiniduIyobosa/ )
 

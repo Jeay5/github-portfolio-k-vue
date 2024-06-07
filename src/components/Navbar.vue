@@ -7,7 +7,7 @@
   <nav>
     <div class="navbar">
       <gitHubIcon class="github-icon"/>
-      <h1>Maame's GitHub.</h1>
+      <h1>Jememiah's GitHub.</h1>
     </div>
   </nav>
 
@@ -20,7 +20,7 @@
   align-items: center;
   gap: 10px;
   justify-content: center;
-  background-color: #00bd7e;
+  background-color: #00bdec;
   /* background-color: #1B9AAA; */
   text-align: center;
   padding: 20px;
