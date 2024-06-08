@@ -21,7 +21,7 @@
   gap: 10px;
   justify-content: center;
   background-color: #00bdec;
-  /* background-color: #1B9AAA; */
+  /* background-color: #00bdec; */
   text-align: center;
   padding: 20px;
   margin-bottom: 100px
